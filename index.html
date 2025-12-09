@@ -33,7 +33,7 @@ DATA_URL = "https://raw.githubusercontent.com/raghav10089/courtanalysis/refs/hea
 def load_data():
     try:
         # We fetch the absolute URL so the browser knows exactly where to find it
-        df = pd.read_csv(open_url(https://raw.githubusercontent.com/raghav10089/courtanalysis/refs/heads/main/judgments.csv), low_memory=False)
+        df = pd.read_csv(open_url(DATA_URL), low_memory=False)
         
         # --- CLEANING DATA ---
         # Fix Dates
